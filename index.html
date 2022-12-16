@@ -1,78 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
-</head>
-<body>
-    <section id="welcome-section">
-        <h1>HEY I AM MIMIC</h1>
-        <p>a web develper</p>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="navbar-list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <h1>HEY I AM MIMIC</h1>
+      <p>a web developer</p>
     </section>
     <section id="projects">
-        <h2>These are some of projects</h2>
-        <a class="project-tile"
-        href="#"
-        >
-            <img 
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" 
-            alt="Picture">
-            <p>
-                Tribute Page
-            </p>
-        </a>
-        <a class="project-tile"
-        href="#"
-        >
-            <img 
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" 
-            alt="Picture">
-            <p>
-                JavaScript Calculator
-            </p>
-        </a>
-        <a class="project-tile"
-        href="#"
-        >
-            <img 
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" 
-            alt="Picture">
-            <p>
-                Random Quote Machine
-            </p>
-        </a>
-        <a class="project-tile"
-        href="#"
-        >
-            <img 
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" 
-            alt="Picture">
-            <p>
-                Map Data Across the Globe
-            </p>
-        </a>
-        <a class="project-tile"
-        href="#"
-        >
-            <img 
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" 
-            alt="Picture">
-            <p>
-                Wikipedia Viewer
-            </p>
-        </a>
-        <a class="project-tile"
-        href="#"
-        >
-            <img 
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" 
-            alt="Picture">
-            <p>
-                Tic Tac Toe Game
-            </p>
-        </a>
+      <h2>These are some of projects</h2>
+      <a class="project-tile" href="#" target="_blank">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="Picture"
+          class="project-image"
+        />
+        <p class="project-header">Tribute Page</p>
+      </a>
+      <a class="project-tile" href="#" target="_blank">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+          alt="Picture"
+          class="project-image"
+        />
+        <p class="project-header">JavaScript Calculator</p>
+      </a>
+      <a class="project-tile" href="#" target="_blank">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+          alt="Picture"
+          class="project-image"
+        />
+        <p class="project-header">Random Quote Machine</p>
+      </a>
+      <a class="project-tile" href="#" target="_blank">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+          alt="Picture"
+          class="project-image"
+        />
+        />
+        <p class="project-header">Map Data Across the Globe</p>
+      </a>
+      <a class="project-tile" href="#" target="_blank">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+          alt="Picture"
+          class="project-image"
+        />
+        <p class="project-header">Wikipedia Viewer</p>
+      </a>
+      <a class="project-tile" href="#" target="_blank">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+          alt="Picture"
+          class="project-image"
+        />
+        <p class="project-header">Tic Tac Toe Game</p>
+      </a>
     </section>
-</body>
+    <section id="profile-link" class="#">
+      <div>
+        <h2>Let's work together...</h2>
+        <p>How do you take your coffee?</p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a
+              href="https://facebook.com/freecodecamp"
+              target="_blank"
+              class="btn"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Felix_Omini.git"
+              target="_blank"
+              class="btn"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/freecodecamp"
+              target="_blank"
+              class="btn"
+              >Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
